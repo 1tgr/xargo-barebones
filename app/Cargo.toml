@@ -1,0 +1,11 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["Tim Robinson <tim.g.robinson@gmail.com>"]
+
+[[bin]]
+name = "app"
+
+[dependencies]
+libc = { version = "0.2.23", default-features = false }
+std_dep = { path = "../libstd_dep" }
